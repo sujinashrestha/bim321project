@@ -9,7 +9,7 @@ ul{
   paddinng: 10px;
   
 li{
-  display: inline-block;
+float: right;
   paddinng: 0x 50px 0px 0px;
 }
 
