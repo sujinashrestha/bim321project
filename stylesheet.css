@@ -1,61 +1,215 @@
-.navbar{
+body {
+  margin: 0;
+}
+
+html {
+  background: url("../bim321project/images/background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100%; */
+
+}
+
+.navbar {
   width: 100%;
-  background-color: #dddddd;
-  overflow: auto;
-  }
+  margin: auto;
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(223, 0, 253), rgb(8, 232, 240));
 
-.navbar a{
-  width: 33.33%;
-  text-decoration: none;
-  padding: 15px 0px 10px 20px;
-  font-size: 20px;
 }
 
-.navbar a:hover {
-  background-color: #237988;
-}
-
-ul{ 
-  text-align: right; 
-  list-style-type: none;
-  background-color: rgba(128, 128, 128, 80);
-}
-  
-li{
+ul {
+  padding: 2px;
   float: right;
-  paddinng: 10px;
 }
 
-  body{
-    margin=0px;
-  }
+li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(46, 43, 43);
+  border-radius: 10px;
   
-  
-h1{
-  font-family: arial;
+}
+
+a:hover {
+  background-color: rgb(147, 238, 0);
+}
+
+.main_container {
+  /* width: 100%; */
+  height: auto;
   text-align: center;
-  font-size: 2.9em;
-  border-bottom: 2px solid white; 
-  borer-top: 2px solid white;
-  box-shadow: 10px 6px 6px #8888888;
- }
+  color: rgb(0, 0, 0);
+  position: relative;
+  /* background-image: linear-gradient(to right, rgb(235, 29, 115), rgb(255, 52, 52)); */
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  text-shadow: 2px 2px rgb(255, 0, 191);
+  padding-top: 20px;
   
-p{
-  font-size: 21px;
 }
 
-span{
-  font-size:2em;
-  }
-  
-img {
-  width: 100%; 
-  margin: 10px; 
-  }
-  
-.container {
+
+h1 {
+  text-align: center;
+  padding: 4px;
+  margin-top: 50px;
+}
+
+p {
+  margin: 5px;
+  padding: 10px;
+  /* width: 60%; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(223, 0, 253), rgb(8, 232, 240));
+  margin-top: auto;
+  position: fixed;
+  height: auto;
+}
+
+.buttondiv {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  }
+  align-items: center;
+  margin-bottom: 5px;
+  clear: both;
+}
+
+button {
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, rgb(235, 29, 115), rgb(255, 52, 52));
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.primg {
+  float: left;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.primg img {
+  height: 480px;
+  width: 320px;
+  border-radius: 10px;
+  border: 4px solid rgb(0, 0, 0);
+  box-shadow: 4px 4px rgb(0, 0, 0);
+  margin-left: 40px;
   
+}
+
+.bio_container {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(255, 0, 191);
+  margin: 15px;
+  border-radius: 15px;
+  /* background-color: rgb(168, 142, 142); */
+  position: relative;
+  width: auto;
+  padding-bottom: 10px;
+  /* text-align: center;
+  padding: 20px 300px; */
+  
+}
+
+.bio_container h1 {
+  text-align: left;
+  margin-left: 120px;
+}
+
+textarea.txt {
+  height: 200px;
+}
+
+.btn {
+  float: right;
+  width: 60px;
+  margin-top: 20px;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(223, 0, 253), rgb(8, 232, 240));
+
+}
+
+
+
+.input_container input, textarea.txt{
+  padding: 8px;
+  width: 60%;
+  display: block;
+  margin: 10px;
+  background-color: rgb(80, 172, 172);
+  border-radius: 30px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background:  #658ba7
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 3px;
+  margin-top: 3px;
+  border-radius: 50%;
+}
